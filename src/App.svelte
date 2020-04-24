@@ -1,9 +1,13 @@
 <script>
 	import StartUp from './components/StartUp.svelte';
+	import Variables from './components/Variables.svelte';
 </script>
 
 <main>
 	<StartUp />
+	<hr>
+	<Variables />
+	<hr>
 </main>
 
 <style>

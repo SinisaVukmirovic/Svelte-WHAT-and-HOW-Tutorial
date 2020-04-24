@@ -1,12 +1,15 @@
 <script>
 	import StartUp from './components/StartUp.svelte';
 	import Variables from './components/Variables.svelte';
+	import Reactivity from './components/Reactivity.svelte';
 </script>
 
 <main>
 	<StartUp />
 	<hr>
 	<Variables />
+	<hr>
+	<Reactivity />
 	<hr>
 </main>
 

@@ -5,6 +5,7 @@
 	import PropsComponent from './components/props/PropsComponent.svelte';
 	import LogicBlocks from './components/LogicBlocks.svelte';
 	import AwaitBlock from './components/AwaitBlock.svelte';
+	import DomEvents from './components/DomEvents.svelte';
 </script>
 
 <main>
@@ -19,6 +20,8 @@
 	<LogicBlocks />
 	<hr>
 	<AwaitBlock />
+	<hr>
+	<DomEvents />
 </main>
 
 <style>

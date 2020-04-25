@@ -12,6 +12,7 @@
 
 <!-- MarkUp -->
 <h2>Reactivity Declaration</h2>
+
 <div class="products">
     <div class="item">
         <img src="http://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_hphover.png?v=5800661" alt="Product">

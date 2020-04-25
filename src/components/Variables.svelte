@@ -19,6 +19,6 @@
     :global(h2) {
         color: #111;
         background: cornflowerblue;
-        padding: .5rem;
+        padding: .25rem;
     }
 </style>

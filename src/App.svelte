@@ -4,6 +4,7 @@
 	import Reactivity from './components/Reactivity.svelte';
 	import PropsComponent from './components/props/PropsComponent.svelte';
 	import LogicBlocks from './components/LogicBlocks.svelte';
+	import AwaitBlock from './components/AwaitBlock.svelte';
 </script>
 
 <main>
@@ -16,13 +17,15 @@
 	<PropsComponent />
 	<hr>
 	<LogicBlocks />
+	<hr>
+	<AwaitBlock />
 </main>
 
 <style>
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
+		/* max-width: 240px; */
 		margin: 0 auto;
 	}
 

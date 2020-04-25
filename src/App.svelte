@@ -3,6 +3,7 @@
 	import Variables from './components/Variables.svelte';
 	import Reactivity from './components/Reactivity.svelte';
 	import PropsComponent from './components/props/PropsComponent.svelte';
+	import LogicBlocks from './components/LogicBlocks.svelte';
 </script>
 
 <main>
@@ -13,6 +14,8 @@
 	<Reactivity />
 	<hr>
 	<PropsComponent />
+	<hr>
+	<LogicBlocks />
 </main>
 
 <style>

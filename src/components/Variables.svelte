@@ -4,7 +4,7 @@
     let blog = `
         <img src=${src} alt="Svelte logo" width="200" />
         <h1 class="sty">Why learn Svelte js</h1>
-        <p>Because it is very simple and has <strong>compiler</strong> instead of >strong>virtual DOM</strong></p>
+        <p>Because it is very simple and has <strong>compiler</strong> instead of <strong>virtual DOM</strong></p>
     `;
 </script>
 

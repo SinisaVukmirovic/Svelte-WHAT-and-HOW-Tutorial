@@ -2,6 +2,7 @@
 	import StartUp from './components/StartUp.svelte';
 	import Variables from './components/Variables.svelte';
 	import Reactivity from './components/Reactivity.svelte';
+	import PropsComponent from './components/props/PropsComponent.svelte';
 </script>
 
 <main>
@@ -11,6 +12,7 @@
 	<hr>
 	<Reactivity />
 	<hr>
+	<PropsComponent />
 </main>
 
 <style>

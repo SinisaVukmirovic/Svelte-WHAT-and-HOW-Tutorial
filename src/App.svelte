@@ -7,6 +7,9 @@
 	import AwaitBlock from './components/AwaitBlock.svelte';
 	import DomEvents from './components/DomEvents.svelte';
 	import Bindings from './components/Bindings.svelte';
+	import Destroy from './components/lifeCycle/Destroy.svelte';
+	// Destroy
+	let showCounter = false;
 </script>
 
 <main>
@@ -25,6 +28,13 @@
 	<DomEvents />
 	<hr>
 	<Bindings />
+	<hr>
+	<!-- Destroy -->
+	<h2>Life Cycle - On Destroy Method</h2>
+	{#if showCounter}
+		<Destroy />
+	{/if}
+	<button on:click={() => showCounter = !showCounter}>Show Count</button>
 </main>
 
 <style>

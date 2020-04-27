@@ -6,6 +6,7 @@
 	import LogicBlocks from './components/LogicBlocks.svelte';
 	import AwaitBlock from './components/AwaitBlock.svelte';
 	import DomEvents from './components/DomEvents.svelte';
+	import Bindings from './components/Bindings.svelte';
 </script>
 
 <main>
@@ -22,6 +23,8 @@
 	<AwaitBlock />
 	<hr>
 	<DomEvents />
+	<hr>
+	<Bindings />
 </main>
 
 <style>

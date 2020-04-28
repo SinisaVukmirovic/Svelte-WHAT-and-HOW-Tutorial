@@ -53,5 +53,7 @@
     .cost {
         display: flex;
         justify-content: space-around;
+        width: 30rem;
+        margin: 0 auto;
     }
 </style>

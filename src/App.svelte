@@ -8,6 +8,8 @@
 	import DomEvents from './components/DomEvents.svelte';
 	import Bindings from './components/Bindings.svelte';
 	import Destroy from './components/lifeCycle/Destroy.svelte';
+	import BeforeAfterUpdate from './components/lifeCycle/BeforeAfterUpdate.svelte';
+
 	// Destroy
 	let showCounter = false;
 </script>
@@ -30,11 +32,14 @@
 	<Bindings />
 	<hr>
 	<!-- Destroy -->
-	<h2>Life Cycle - On Destroy Method</h2>
+	<h2>Life Cycles</h2>
+	<p class="subtitle">On Destroy Method</p>
 	{#if showCounter}
 		<Destroy />
 	{/if}
 	<button on:click={() => showCounter = !showCounter}>Show Count</button>
+	<hr>
+	<BeforeAfterUpdate />
 </main>
 
 <style>
@@ -56,5 +61,11 @@
 		main {
 			max-width: none;
 		}
+	}
+
+	:global(p.subtitle) {
+		font-weight: bold;
+		color: #ff3e00;
+		font-size: 1.5rem;
 	}
 </style>

@@ -18,23 +18,23 @@
         <input type="checkbox" bind:checked={locked}>    
     </label>
 
-    <input type="range" bind:value={width} min='100' max="1200" disabled={locked}>    
+    <input type="range" bind:value={width} min='100' max="1000" disabled={locked}>    
 
     <div class="radio-btns">
         <label>
             <input type="radio" bind:group={imgPath}
-            value='../img/radiant.jpg'  disabled={locked}>Radiant
+            value='../img/size.png'  disabled={locked}> Size
         </label>
         <label>
             <input type="radio" bind:group={imgPath}
-            value='../img/dire.jpg'  disabled={locked}>Dire
+            value='../img/speed.png'  disabled={locked}> Speed
         </label>
     </div>
     
 
     <select name="" id="" bind:value={imgPath}>
-        <option value="../img/radiant.jpg">Radiant</option>
-        <option value="../img/dire.jpg">Dire</option>
+        <option value="../img/size.png">Size</option>
+        <option value="../img/speed.png">Speed</option>
     </select>
 
     <img {width} src={imgPath} alt="Dota 2 Radiant Image">
@@ -55,5 +55,12 @@
     }
     select, input[type="range"] {
         margin: 1rem;
+    }
+
+    input[type="checkbox"] {
+        width: 1.25rem;
+        height: 1.25rem;
+        transform: translatey(25%);
+        margin-left: .5rem;
     }
 </style>

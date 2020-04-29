@@ -9,6 +9,7 @@
 	import Bindings from './components/Bindings.svelte';
 	import Destroy from './components/lifeCycle/Destroy.svelte';
 	import BeforeAfterUpdate from './components/lifeCycle/BeforeAfterUpdate.svelte';
+	import Writable from './components/store/Writable.svelte';
 
 	// Destroy
 	let showCounter = false;
@@ -40,6 +41,8 @@
 	<button on:click={() => showCounter = !showCounter}>Show Count</button>
 	<hr>
 	<BeforeAfterUpdate />
+	<hr>
+	<Writable />
 </main>
 
 <style>

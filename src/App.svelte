@@ -10,6 +10,7 @@
 	import Destroy from './components/lifeCycle/Destroy.svelte';
 	import BeforeAfterUpdate from './components/lifeCycle/BeforeAfterUpdate.svelte';
 	import Writable from './components/store/Writable.svelte';
+	import Props from './components/slots/Props.svelte';
 
 	// Destroy
 	let showCounter = false;
@@ -43,6 +44,8 @@
 	<BeforeAfterUpdate />
 	<hr>
 	<Writable />
+	<hr>
+	<Props />
 </main>
 
 <style>

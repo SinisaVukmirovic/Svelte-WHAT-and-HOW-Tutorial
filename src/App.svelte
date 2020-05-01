@@ -13,9 +13,34 @@
 	import Readable from './components/store/Readable.svelte';
 	import Props from './components/slots/Props.svelte';
 	import Slots from './components/slots/Slots.svelte';
+	// context
+	import { setContext } from 'svelte';
+	import Showcase from './components/context/Showcase.svelte';
 
 	// Destroy
 	let showCounter = false;
+
+	// Context
+	let ShowcaseImgs = [
+        'http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_hphover.png?v=5832821',
+        'http://cdn.dota2.com/apps/dota2/images/heroes/ogre_magi_hphover.png?v=5832821',
+        'http://cdn.dota2.com/apps/dota2/images/heroes/windrunner_hphover.png?v=5832821',
+        'http://cdn.dota2.com/apps/dota2/images/heroes/enigma_hphover.png',
+        'http://cdn.dota2.com/apps/dota2/images/heroes/invoker_hphover.png',
+        'http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_hphover.png?v=5832821',
+        'http://cdn.dota2.com/apps/dota2/images/heroes/axe_hphover.png?v=5832821',
+        'http://cdn.dota2.com/apps/dota2/images/heroes/pudge_hphover.png?v=5832821',
+        'http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_hphover.png?v=5832821',
+		'http://cdn.dota2.com/apps/dota2/images/heroes/sven_hphover.png?v=5832821',
+		'http://cdn.dota2.com/apps/dota2/images/heroes/sniper_hphover.png?v=5832821',
+		'http://cdn.dota2.com/apps/dota2/images/heroes/gyrocopter_hphover.png?v=5832821',
+		'http://cdn.dota2.com/apps/dota2/images/heroes/razor_hphover.png?v=5832821',
+		'http://cdn.dota2.com/apps/dota2/images/heroes/templar_assassin_hphover.png?v=5832821',
+		'http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_hphover.png?v=5832821'
+	];
+	
+	setContext('ShowcaseImgs', ShowcaseImgs);
+
 </script>
 
 <main>
@@ -54,6 +79,9 @@
 	<Props />
 	<hr>
 	<Slots />
+	<hr>
+	<!-- Context -->
+	<Showcase />
 </main>
 
 <style>

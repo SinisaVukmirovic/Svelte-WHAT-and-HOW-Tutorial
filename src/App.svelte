@@ -10,6 +10,7 @@
 	import Destroy from './components/lifeCycle/Destroy.svelte';
 	import BeforeAfterUpdate from './components/lifeCycle/BeforeAfterUpdate.svelte';
 	import Writable from './components/store/Writable.svelte';
+	import Readable from './components/store/Readable.svelte';
 	import Props from './components/slots/Props.svelte';
 	import Slots from './components/slots/Slots.svelte';
 
@@ -34,17 +35,21 @@
 	<hr>
 	<Bindings />
 	<hr>
-	<!-- Destroy -->
+	<!-- Destroy section -->
 	<h2>Life Cycles</h2>
 	<p class="subtitle">On Destroy Method</p>
 	{#if showCounter}
 		<Destroy />
 	{/if}
 	<button on:click={() => showCounter = !showCounter}>Show Count</button>
+	<!-- end of destroy section -->
 	<hr>
 	<BeforeAfterUpdate />
 	<hr>
+	<!-- Store section -->
 	<Writable />
+	<hr>
+	<Readable />
 	<hr>
 	<Props />
 	<hr>

@@ -6,6 +6,7 @@
 </script>
 
 <h2>Store</h2>
+<p class="subtitle">Writable</p>
 
 <!-- to subscribe to a value from a store add a $ sign infront of it -->
 <!-- this automatically handles subscribe and unsubscribe -->

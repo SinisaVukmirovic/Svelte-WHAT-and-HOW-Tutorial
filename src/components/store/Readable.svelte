@@ -7,4 +7,4 @@
 
 <!-- to subscribe to a value from a store add a $ sign infront of it -->
 <!-- this automatically handles subscribe and unsubscribe -->
-{$readOnlyData}
+<h3>{$readOnlyData}</h3>

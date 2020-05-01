@@ -10,7 +10,7 @@
 </script>
 
 <h2>Slot Props</h2>
-<p>Click on the images to see the effects passes with slot prop</p>
+<p>Click on the images to see the effects passed with slot prop</p>
 
 <div class="container">
     <Gallery let:clicked={IAmClicked}>

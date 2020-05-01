@@ -55,7 +55,7 @@
     {/each}
 </div>
 
-<p>Clear the Panel! Click on the lighted Pane!</p>
+<p>Clear the Panel! Click on the lighted bubble!</p>
 
 <style>
     .container {

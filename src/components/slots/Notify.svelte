@@ -16,8 +16,8 @@
         justify-content: center;
     }
     div {
-        padding: 1rem;
-        margin: .5rem auto;
+        padding: .5rem;
+        margin: .75rem auto;
         background-color: coral;
         color: #000;
         font-size: 1.25rem;

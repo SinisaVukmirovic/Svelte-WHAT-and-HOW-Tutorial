@@ -11,6 +11,7 @@
 	import BeforeAfterUpdate from './components/lifeCycle/BeforeAfterUpdate.svelte';
 	import Writable from './components/store/Writable.svelte';
 	import Props from './components/slots/Props.svelte';
+	import Slots from './components/slots/Slots.svelte';
 
 	// Destroy
 	let showCounter = false;
@@ -46,6 +47,8 @@
 	<Writable />
 	<hr>
 	<Props />
+	<hr>
+	<Slots />
 </main>
 
 <style>

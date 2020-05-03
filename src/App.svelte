@@ -18,6 +18,7 @@
 	import Showcase from './components/context/Showcase.svelte';
 	import Tween from './components/motion/Tween.svelte';
 	import Spring from './components/motion/Spring.svelte';
+	import FadeInOut from './components/transitions/FadeInOut.svelte';
 
 	// Destroy
 	let showCounter = false;
@@ -88,6 +89,8 @@
 	<hr>
 	<p class="subtitle">Spring</p>
 	<Spring />
+	<hr>
+	<FadeInOut />
 </main>
 
 <style>

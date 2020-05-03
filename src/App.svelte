@@ -17,6 +17,7 @@
 	import { setContext } from 'svelte';
 	import Showcase from './components/context/Showcase.svelte';
 	import Tween from './components/motion/Tween.svelte';
+	import Spring from './components/motion/Spring.svelte';
 
 	// Destroy
 	let showCounter = false;
@@ -84,6 +85,9 @@
 	<!-- Context -->
 	<Showcase />
 	<Tween />
+	<hr>
+	<p class="subtitle">Spring</p>
+	<Spring />
 </main>
 
 <style>

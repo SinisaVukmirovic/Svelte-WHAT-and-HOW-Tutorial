@@ -20,6 +20,7 @@
 	import Spring from './components/motion/Spring.svelte';
 	import FadeInOut from './components/transitions/FadeInOut.svelte';
 	import Self from './components/elements/Self.svelte';
+	import Head from './components/elements/Head.svelte';
 
 	// Destroy
 	let showCounter = false;
@@ -93,9 +94,12 @@
 	<hr>
 	<FadeInOut />
 	<hr>
-	<h2>Elements (self, head, body, window...)</h2>
+	<h2>Elements</h2>
 	<p class="subtitle">Self</p>
 	<Self count={5} />
+	<hr>
+	<p class="subtitle">Component, head</p>
+	<Head />
 </main>
 
 <style>

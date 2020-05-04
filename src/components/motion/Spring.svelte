@@ -24,5 +24,16 @@
     }, 600);
 </script>
 
-<img {src} alt="Svelte Logo" width={$width}>
+<section>
+    <img {src} alt="Svelte Logo" width={$width}>
+</section>
 <!-- whenever we use variable for spring we need to use $in front of it -->
+
+<style>
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+</style>

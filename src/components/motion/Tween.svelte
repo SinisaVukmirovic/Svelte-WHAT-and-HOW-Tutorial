@@ -20,5 +20,16 @@
 <button on:click={animateImg}>Animate</button>
 <br>
 
-<img {src} alt="" width={$width}>
-<!-- whenever we use variable for tweened we need to use $in front of it -->
+<section>
+    <img {src} alt="" width={$width}>
+    <!-- whenever we use variable for tweened we need to use $in front of it -->
+</section>
+
+<style>
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+    }
+</style>

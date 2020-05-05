@@ -2,7 +2,7 @@
     import { spring } from 'svelte/motion';
     // import { cubicOut } from 'svelte/easing';
 
-    let src = '../img/svelte-logo.png';
+    let src = 'img/svelte-logo.png';
 
     let zoomIn;
     let zoomOut;

@@ -23,21 +23,21 @@
     <div class="radio-btns">
         <label>
             <input type="radio" bind:group={imgPath}
-            value='../img/size.png'  disabled={locked}> Size
+            value='img/size.png'  disabled={locked}> Size
         </label>
         <label>
             <input type="radio" bind:group={imgPath}
-            value='../img/speed.png'  disabled={locked}> Speed
+            value='img/speed.png'  disabled={locked}> Speed
         </label>
     </div>
     
 
     <select name="" id="" bind:value={imgPath}>
-        <option value="../img/size.png">Size</option>
-        <option value="../img/speed.png">Speed</option>
+        <option value="img/size.png">Size</option>
+        <option value="img/speed.png">Speed</option>
     </select>
 
-    <img {width} src={imgPath} alt="Dota 2 Radiant Image">
+    <img {width} src={imgPath} alt="Graph on speed/size">
 </div>
 
 

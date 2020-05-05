@@ -21,6 +21,7 @@
 	import FadeInOut from './components/transitions/FadeInOut.svelte';
 	import Self from './components/elements/Self.svelte';
 	import Head from './components/elements/Head.svelte';
+	import Footer from './components/Footer.svelte';
 
 	// Destroy
 	let showCounter = false;
@@ -100,6 +101,7 @@
 	<hr>
 	<p class="subtitle">Component, head</p>
 	<Head />
+	<Footer />
 </main>
 
 <style>
